@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Studio| Anderssonwise</title>
+<link rel="stylesheet" href="Anderssonwise.css" />
+<script>
+function show1(){
+  document.getElementById('c1').style.display ='block';
+}
+function show2(){
+  document.getElementById('c2').style.display = 'block';
+}function show3(){
+  document.getElementById('c3').style.display ='block';
+}
+
+function hide(){
+  document.getElementById('c1').style.display = 'none';
+  document.getElementById('c2').style.display = 'none';
+  document.getElementById('c3').style.display = 'none';
+  
+}
+
+</script>
+</head>
+
+<body class="home" style="background-color:#e5e5e5 !important;">
+<div class="nav">
+<div class="navlinksh"><a href="Anderssonwise.html"><button class="btn">ANDERSSON-WISE</button></a></div>
+<div class="navlinks"><a href="studio.html"><button class="btn2" style="color:#248032 !important;">STUDIO</button></a></div>
+<div class="navlinks"><a href="projects.html"><button class="btn2" >PROJECTS</button></a></div>
+
+<div class="navlinks"><a href="monography.html"><button class="btn2">MONOGRAPHY</button></a></div>
+<div class="navlinks"><a href="contact.html"><button class="btn2" >CONTACT</button></a></div>
+</div>
+
+<div id="navrbb" role="group">
+
+
+<br /><br />
+
+<script>
+
+function a1()
+{
+document.getElementById("d1").classList.add("activated");	
+document.getElementById("d2").classList.remove("activated");
+document.getElementById("d3").classList.remove("activated");
+}
+function a2()
+{
+document.getElementById("d2").classList.add("activated");
+document.getElementById("d1").classList.remove("activated");
+document.getElementById("d3").classList.remove("activated");	
+}
+function a3()
+{
+document.getElementById("d3").classList.add("activated");
+document.getElementById("d1").classList.remove("activated");
+document.getElementById("d2").classList.remove("activated");	
+}
+
+</script>
+
+<button id="d1" onclick="hide();show1();a1();" class="selectbtnn activated">&gt;   Our Vision</button>
+<button id="d2" onclick="hide();show2();a2();" class="selectbtnn">&gt;   Principals</button>
+<button id="d3" onclick="hide();show3();a3();" class="selectbtnn">&gt;   Our Team</button>
+
+</div>
+
+<div class="studiocontainer">
+
+
+
+
+<div id="c1" class="hide vision">
+
+<script>show1();</script>
+<h1>Our Vision</h1>
+<hr size="6" color="#5D5D5D" />
+<p>
+Arthur W. Andersson and F. Christian Wise founded Andersson•Wise Architects in 2001, focused on the idea that a collaborative approach to design leads to a built solution attuned to its purpose, as well as the broader issues of image and context. Our method of designing begins by working closely with the client and our design team to understand, in-depth, the written and unwritten program and the complexities of the site.
+</p>
+<a href="http://www.facebook.com/anderssonwise/"><img src="fb_before.png" alt="FB" /></a>
+<a href="mailto:trish@anderrsonwise.com"><img src="mm.png" alt="MAIL" style="width:50px !important;height:35px !important;margin-left:-10px !important;" /></a>
+<p id="p3">
+<strong>LEARN MORE ABOUT US</strong>&nbsp; Follow Andersson-Wise on <a href="http://www.facebook.com/anderssonwise/">Facebook</a>, or <a href="contact.html">contact us</a> with your comments or inquiries.
+</p>
+</div>
+
+
+<div id="c2" class="hide principals">
+<h1>Principals</h1>
+<hr size="6" color="#5D5D5D" />
+<br />
+<br />
+<br />
+<img src="p1.jpg" alt="P1" />
+<br /><br />
+<br />
+
+
+<br />
+
+<img src="p2.jpg" alt="P2" />
+
+
+<h4 id="p11">Arthur W. Andersson, <span style="color:#5d5d5d !important; font-size:14px !important;">FAIA</span>
+</h4>
+
+
+<p id="p12">
+<br />
+As Design Director, Arthur’s role is to provide leadership by integrating the client into the collaborative process and establishing design concepts. He is the principal in charge of the overall design process and of facilitating client communications through the design phases of each project.<span id="dots">...</span>
+<br />
+
+<span id="more"><br />
+Arthur has practiced architecture over three decades throughout the United States in Kansas City, New Orleans and Austin. Arthur studied architecture at the University of Kansas and at the University of London, England graduating with a Bachelor of Environmental Design in 1979. He joined the offices of Howard Needles Tammen Bergendoff (HNTB) in Kansas City, Missouri where he was the principal designer for several major projects. In 1981 Arthur collaborated with Charles W Moore in designing the 1984 Louisiana World Exposition in New Orleans, and established an office with Moore in Austin in 1984.
+</span><br />
+<button onclick="myFunction()" id="morebtn">&gt; Read more</button>
+</p>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("morebtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "&gt; Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "&lt; Collapse"; 
+    moreText.style.display = "inline";
+  }
+}
+
+</script>
+<h4 id="p14">F. Christian Wise,  <span style="color:#5d5d5d !important; font-size:14px !important;">AIA</span>
+</h4>
+
+<p id="p13">
+<br />
+Besides contributing as a design collaborator, Chris’ role is to provide leadership as a Managing Partner. He is the principal in charge through the technical phases of the work and the construction of each project, ensuring that the design concepts are integrated through the entirety of the process.<span id="dotsn">...</span>
+<br />
+
+<span id="moren"><br />
+Before co-founding Andersson-Wise Architects, Chris worked with Andersson and Moore from 1986–1991, becoming a Senior Associate in Moore/Andersson Architects in Austin from 1995–2001. He also served as an Associate in Lyndon/Buchanan Architects in Berkeley, California from 1991–1994. Chris received his Bachelor of Architecture degree from the University of Texas in 1987, which included an internship with Venturi Rauch Scott-Brown Associates in Philadelphia, Pennsylvania in 1985–86. He completed studies at Harvard University culminating with a Master of Design Studies in History and Theory in 1995.
+</span><br />
+<button onclick="myFunctionn()" id="morebtnn">&gt; Read more</button>
+</p>
+<script>
+function myFunctionn() {
+  var dots = document.getElementById("dotsn");
+  var moreText = document.getElementById("moren");
+  var btnText = document.getElementById("morebtnn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "&gt; Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "&lt; Collapse"; 
+    moreText.style.display = "inline";
+  }
+}
+
+
+</script>
+</div>
+<div id="c3" class="hide team">
+<h1>Our Team</h1>
+<hr size="6" color="#5D5D5D" />
+<br />
+<br />
+<br />
+
+</div>
+
+
+
+
+
+</div>
+
+</div> 
+
+
+
+</body>
+</html>
